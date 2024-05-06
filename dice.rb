@@ -24,6 +24,7 @@ get("/giraffe") do
   "Hopefully this shows up without having to restart the server 🤞🏾"
 end
 
+
 get("/dice/2/6") do
   first_die = rand(1..6)
   second_die = rand(1..6)
